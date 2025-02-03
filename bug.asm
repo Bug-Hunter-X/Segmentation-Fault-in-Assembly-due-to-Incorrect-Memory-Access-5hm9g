@@ -1,0 +1,1 @@
+mov eax, [ebx+4*ecx] ;This instruction can cause a segmentation fault if the address calculated by ebx+4*ecx is outside the accessible memory range.
